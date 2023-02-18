@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/chat-rooms/static/css/main.5ea0b0d1.chunk.css",
+    "main.js": "/chat-rooms/static/js/main.6fda65a3.chunk.js",
+    "main.js.map": "/chat-rooms/static/js/main.6fda65a3.chunk.js.map",
+    "runtime-main.js": "/chat-rooms/static/js/runtime-main.0b98b661.js",
+    "runtime-main.js.map": "/chat-rooms/static/js/runtime-main.0b98b661.js.map",
+    "static/js/2.5502236d.chunk.js": "/chat-rooms/static/js/2.5502236d.chunk.js",
+    "static/js/2.5502236d.chunk.js.map": "/chat-rooms/static/js/2.5502236d.chunk.js.map",
+    "static/js/3.5145859c.chunk.js": "/chat-rooms/static/js/3.5145859c.chunk.js",
+    "static/js/3.5145859c.chunk.js.map": "/chat-rooms/static/js/3.5145859c.chunk.js.map",
+    "index.html": "/chat-rooms/index.html",
+    "static/css/main.5ea0b0d1.chunk.css.map": "/chat-rooms/static/css/main.5ea0b0d1.chunk.css.map",
+    "static/js/2.5502236d.chunk.js.LICENSE.txt": "/chat-rooms/static/js/2.5502236d.chunk.js.LICENSE.txt",
+    "static/media/chat.ef5ceb1f.svg": "/chat-rooms/static/media/chat.ef5ceb1f.svg",
+    "static/media/edit.04b06361.svg": "/chat-rooms/static/media/edit.04b06361.svg",
+    "static/media/edit_image.dd18d34a.svg": "/chat-rooms/static/media/edit_image.dd18d34a.svg",
+    "static/media/login.42bc8597.svg": "/chat-rooms/static/media/login.42bc8597.svg",
+    "static/media/logout.c128dfa1.svg": "/chat-rooms/static/media/logout.c128dfa1.svg",
+    "static/media/profile.2ab6e483.svg": "/chat-rooms/static/media/profile.2ab6e483.svg",
+    "static/media/send.0c33837a.svg": "/chat-rooms/static/media/send.0c33837a.svg",
+    "static/media/verified.8075d884.svg": "/chat-rooms/static/media/verified.8075d884.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b98b661.js",
+    "static/js/2.5502236d.chunk.js",
+    "static/css/main.5ea0b0d1.chunk.css",
+    "static/js/main.6fda65a3.chunk.js"
+  ]
+}
