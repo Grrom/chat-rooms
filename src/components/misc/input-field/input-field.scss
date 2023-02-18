@@ -1,0 +1,34 @@
+@import "../../../styles/presets";
+
+.input-field {
+  align-items: center;
+  justify-content: center;
+
+  .label {
+    display: block;
+    color: $primary;
+    font-weight: bold;
+  }
+
+  .input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid $blackLight;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+
+    @extend .rounded-border;
+  }
+
+  .input:focus {
+    outline: none;
+    border: 2px solid $primary;
+  }
+
+  .checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

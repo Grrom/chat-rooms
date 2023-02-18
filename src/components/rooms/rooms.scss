@@ -1,0 +1,49 @@
+@import "../../styles/presets";
+@import "../../styles/hovers";
+
+#rooms {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+
+  scrollbar-color: rgba($blackLight, 0.6) transparent;
+
+  @include desktop {
+    max-width: 400px;
+  }
+
+  @include mobile {
+    margin-top: 40px;
+    position: absolute;
+    overflow-x: auto;
+    min-height: 90vh;
+  }
+
+  .room {
+    width: 80%;
+    min-width: 250px;
+    max-width: 350px;
+    background-color: rgba($bg-dark, 0.6);
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+
+    @extend .hover-shadow-inset;
+    @extend .circular-border;
+    @extend .default-padding;
+    @extend .default-margin;
+    @extend .clickable;
+  }
+
+  .active {
+    @extend .shadow-inset;
+  }
+}
+
+.react-player {
+  display: none;
+}

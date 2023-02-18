@@ -1,0 +1,14 @@
+@import "../../styles/presets";
+
+.form {
+  max-width: 500px;
+
+  .button {
+    background-color: $secondary;
+    margin-top: 20px;
+  }
+
+  .title {
+    color: $primary;
+  }
+}

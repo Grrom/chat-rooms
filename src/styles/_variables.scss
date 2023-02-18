@@ -1,0 +1,28 @@
+// COLORS
+$primary: #106e94;
+$secondary: #11496c;
+
+$primaryLight: lighten($primary, 10%);
+$primaryLight1: lighten($primary, 20%);
+$primaryLight2: lighten($primary, 30%);
+
+$secondaryLight: lighten($secondary, 10%);
+
+$green: #52ce9c;
+$red: #d20000;
+
+$bg-light: #f0f0f0;
+$bg-dark: rgb(136, 136, 136);
+
+$blackLight: lighten(black, 80%);
+
+$translucentBlack: rgba(black, 0.95);
+$translucentBlack1: rgba(black, 0.8);
+$translucentBlack2: rgba(black, 0.6);
+$translucentBlack3: rgba(black, 0.4);
+$translucentGray: rgba(gray, 0.8);
+
+// SIZES
+$borderRadius: 40px;
+
+$desktop: 900px;

@@ -1,0 +1,19 @@
+@import "../../../styles/presets";
+@import "../../../styles/hovers";
+
+.icon-button {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+
+  z-index: 1;
+
+  @extend .clickable;
+  @extend .rounded-border;
+
+  .button-icon {
+    @extend .icon;
+  }
+}
